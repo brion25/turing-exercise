@@ -1,0 +1,14 @@
+.button {
+  border-radius: 24px;
+  background-color: var(--red-pink);
+  padding: 14px;
+  border: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white-two);
+  min-width: 163px;
+}

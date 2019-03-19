@@ -1,0 +1,29 @@
+.img {
+  width: 1000px;
+  height: 480px;
+}
+
+.seasonal {
+  position: relative;
+}
+
+.title {
+  font-family: Srisakdi;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 60px;
+  max-width: 400px;
+}
+
+.description {
+  position: absolute;
+  top: 220px;
+  max-width: 400px;
+  right: 50px;
+  text-align: right;
+  line-height: 1.75;
+  font-style: italic;
+  font-family: Srisakdi;
+  font-size: 22px;
+}

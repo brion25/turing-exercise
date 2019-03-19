@@ -1,0 +1,33 @@
+.wrapper {
+  --icon-width: 18px;
+  --regular-padding: 20px;
+
+  position: relative;
+}
+
+.input {
+  border: solid 1px var(--white-three);
+  background-color: var(--white-two);
+  border-radius: 18px;
+  min-height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  padding: 0 var(--regular-padding);
+}
+
+.icon {
+  position: absolute;
+  width: var(--icon-width);
+  height: 12px;
+  top: 50%;
+  left: var(--regular-padding);
+  transform: translateY(-75%);
+}
+
+.withIcon {
+  padding-left: calc(var(--regular-padding) + var(--icon-width) + 11px);
+}
