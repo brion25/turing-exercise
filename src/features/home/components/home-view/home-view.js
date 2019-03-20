@@ -28,9 +28,7 @@ const HomeView = ({getDepartments, getFirstProduct, departments, product}) => {
 
   const seasonal = departments.find(({department_id}) => department_id === SEASONAL_DEPARTMENT)
   const otherDepartments = departments.filter(({department_id}) => department_id !== SEASONAL_DEPARTMENT)
-
-  console.log(product)
-
+  
   return (
     <div>
       <DepartmentSeasonal department={seasonal} />

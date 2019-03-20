@@ -1,1 +1,1 @@
-export const homeUrl = '/'
+export const homeUrl = process.env.PUBLIC_URL + '/'
