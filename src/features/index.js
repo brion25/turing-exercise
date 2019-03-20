@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { Provider } from '../store/provider'
 import Home from './home'
 import Header from './core/components/header/header'
+import Footer from './core/components/footer/footer'
 
 const Features = () => (
   <Router>
@@ -12,6 +13,7 @@ const Features = () => (
       <main>
         <Home/>
       </main>
+      <Footer/>
     </Provider>
   </Router>
 )
