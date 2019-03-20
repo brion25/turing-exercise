@@ -1,7 +1,6 @@
 import React from 'react'
 
 import * as styles from './footer.module.css'
-import { departmentUrl } from '../../../departments/urls'
 import { connect } from '../../../../store/provider'
 
 const Footer = ({departments}) => {
